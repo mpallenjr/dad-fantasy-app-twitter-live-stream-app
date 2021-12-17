@@ -1,5 +1,5 @@
-###
+### THIS REQUEST INITIATES THE TWITTER FEED ###
 GET http://localhost:3001/live_stream_tweets.json
 
-###
+### THIS REQUEST RETURNS THE CONTENT OF THE OUT.TXT FILE IN JSON ###
 GET http://localhost:3001/live_stream_echos
