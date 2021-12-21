@@ -1,4 +1,7 @@
 class LiveStreamTweetsController < ApplicationController
+
+   #This was pulled from the twitter API documentation.  Provides a "portal" for the live tweet stream.  There is code added at like 137 that adds the logic for parsing/encoding and sending to the output text file.
+
   def index
   ### THIS IS TAKEN FROM THE TWITTER API DOCUMENTATION ###
   # This script contains methods to add, remove, and retrieve rules from your stream.
